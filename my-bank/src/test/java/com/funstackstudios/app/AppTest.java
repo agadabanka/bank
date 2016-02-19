@@ -33,6 +33,8 @@ public class AppTest
      */
     public void testApp()
     {
-        assertTrue( true );
+        assertTrue(!App.world(20));
+        assertTrue(!App.world(25));
+        assertTrue(App.world(10));
     }
 }
