@@ -35,6 +35,6 @@ public class AppTest
     {
         assertTrue(!App.world(20));
         assertTrue(!App.world(25));
-        assertTrue(App.world(10));
+        assertTrue(App.world(9));
     }
 }
