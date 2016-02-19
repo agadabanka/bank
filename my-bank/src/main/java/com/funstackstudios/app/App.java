@@ -8,7 +8,9 @@ public class App
 {
     public static void main( String[] args )
     {
-        world(10);
+        // world(10);
+        Calculator c = new Calculator();
+        System.out.println((c.add(10, 20)));
     }
 
     public static boolean world(int n)

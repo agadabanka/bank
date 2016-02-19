@@ -31,10 +31,17 @@ public class AppTest
     /**
      * Rigourous Test :-)
      */
-    public void testApp()
+    public void testApp1()
     {
         assertTrue(!App.world(20));
         assertTrue(!App.world(25));
         assertTrue(App.world(9));
+    }
+
+    public void testAdd()
+    {
+        Calculator c = new Calculator();
+        assertTrue(c.add(30, 20) == 50);
+        assertTrue(c.add(10, 0) == 10);
     }
 }
